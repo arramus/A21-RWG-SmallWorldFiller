@@ -1,0 +1,18 @@
+<configs>
+	<!-- Small 5000 - 7000 RWG Fillers -->
+	<!-- Gives Old West a Trader and Gateway potential -->
+	<set xpath="/rwgmixer/township[@name='oldwest']/property[@name='spawn_trader']/@value">true</set>
+	<set xpath="/rwgmixer/township[@name='oldwest']/property[@name='spawn_gateway']/@value">true</set>
+	<!-- Old West Tiling Expansion -->
+	<set xpath="/rwgmixer/world[@name='small']/property[@class='oldwest']/property[@name='mintiles']/@value">4</set> <!-- 2 -->
+	<set xpath="/rwgmixer/world[@name='small']/property[@class='oldwest']/property[@name='maxtiles']/@value">6</set> <!-- 3 -->
+	<!-- Country Town Tiling -->
+	<set xpath="/rwgmixer/world[@name='small']/property[@class='countrytown']/property[@name='mintiles']/@value">10</set> <!-- 6 -->
+	<set xpath="/rwgmixer/world[@name='small']/property[@class='countrytown']/property[@name='maxtiles']/@value">12</set> <!-- 8 -->
+	<!-- Town Placement Count -->
+	<set xpath="/rwgmixer/world[@name='small']/property[@class='town']/property[@name='default']/@value">3</set> <!-- 2 -->
+	<set xpath="/rwgmixer/world[@name='small']/property[@class='town']/property[@name='many']/@value">4</set> <!-- 3 -->
+	<!-- Town Tiling -->
+	<set xpath="/rwgmixer/world[@name='small']/property[@class='town']/property[@name='mintiles']/@value">10</set> <!-- 6 -->
+	<set xpath="/rwgmixer/world[@name='small']/property[@class='town']/property[@name='maxtiles']/@value">12</set> <!-- 8 -->
+</configs>
